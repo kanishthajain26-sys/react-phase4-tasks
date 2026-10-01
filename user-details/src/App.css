@@ -1,0 +1,470 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  color: #111827;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+  height: 70px;
+  padding: 0 8%;
+
+  background: white;
+
+  border-bottom: 1px solid #e5e7eb;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #4f46e5;
+  font-size: 22px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #6b7280;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: #4f46e5;
+}
+
+/* ================= PAGE ================= */
+
+.page {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 30px;
+}
+
+.page-heading {
+  margin-bottom: 35px;
+}
+
+.page-heading p {
+  color: #6366f1;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.page-heading h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.page-heading span {
+  color: #6b7280;
+}
+
+/* ================= COUNT ================= */
+
+.user-count {
+  margin-bottom: 20px;
+  color: #6b7280;
+}
+
+/* ================= USERS ================= */
+
+.users-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* ================= USER CARD ================= */
+
+.user-card {
+  background: white;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+
+  padding: 25px;
+
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+
+  transition: 0.3s;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 15px 30px rgba(0, 0, 0, 0.08);
+}
+
+.user-avatar {
+  width: 55px;
+  height: 55px;
+
+  min-width: 55px;
+
+  border-radius: 50%;
+
+  background: #eef2ff;
+  color: #4f46e5;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.user-info {
+  flex: 1;
+}
+
+.user-info h3 {
+  margin-bottom: 12px;
+  color: #111827;
+}
+
+.user-info p {
+  color: #6b7280;
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+
+/* ================= BUTTON ================= */
+
+.details-btn {
+  display: inline-block;
+
+  margin-top: 15px;
+
+  padding: 10px 14px;
+
+  background: #6366f1;
+  color: white;
+
+  border-radius: 9px;
+
+  text-decoration: none;
+
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.details-btn:hover {
+  background: #4f46e5;
+}
+
+/* ================= LOADING ================= */
+
+.loading-page {
+  min-height: 500px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.loader {
+  width: 45px;
+  height: 45px;
+
+  border: 4px solid #e0e7ff;
+  border-top-color: #6366f1;
+
+  border-radius: 50%;
+
+  animation: spin 0.8s linear infinite;
+
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-page h2 {
+  margin-bottom: 8px;
+}
+
+.loading-page p {
+  color: #6b7280;
+}
+
+/* ================= EMPTY ================= */
+
+.empty-state {
+  text-align: center;
+}
+
+.empty-state h2 {
+  margin-bottom: 10px;
+}
+
+.empty-state p {
+  color: #6b7280;
+  margin-bottom: 25px;
+}
+
+.empty-state button,
+.not-found button {
+  padding: 12px 20px;
+
+  border: none;
+  border-radius: 9px;
+
+  background: #6366f1;
+  color: white;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+/* ================= BACK ================= */
+
+.back-btn {
+  background: transparent;
+
+  border: none;
+
+  color: #6366f1;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  margin-bottom: 25px;
+}
+
+/* ================= USER DETAILS ================= */
+
+.user-details {
+  background: white;
+
+  border: 1px solid #e5e7eb;
+
+  border-radius: 22px;
+
+  padding: 40px;
+}
+
+/* ================= PROFILE ================= */
+
+.user-profile {
+  text-align: center;
+
+  padding-bottom: 35px;
+
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.large-avatar {
+  width: 90px;
+  height: 90px;
+
+  margin: 0 auto 18px;
+
+  border-radius: 50%;
+
+  background: #eef2ff;
+  color: #4f46e5;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.user-profile h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.username {
+  color: #6366f1;
+}
+
+/* ================= DETAILS ================= */
+
+.details-content {
+  padding-top: 35px;
+}
+
+.detail-section {
+  margin-bottom: 35px;
+}
+
+.detail-section h2 {
+  margin-bottom: 18px;
+  color: #111827;
+}
+
+/* ================= CONTACT ================= */
+
+.detail-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 18px;
+}
+
+.detail-box {
+  background: #f8fafc;
+
+  border: 1px solid #e5e7eb;
+
+  border-radius: 12px;
+
+  padding: 18px;
+}
+
+.detail-box span {
+  display: block;
+
+  color: #6b7280;
+
+  font-size: 12px;
+
+  margin-bottom: 8px;
+}
+
+.detail-box strong {
+  font-size: 14px;
+
+  word-break: break-word;
+}
+
+/* ================= ADDRESS ================= */
+
+.address-box {
+  background: #f8fafc;
+
+  border: 1px solid #e5e7eb;
+
+  border-radius: 12px;
+
+  padding: 20px;
+}
+
+.address-box p {
+  color: #6b7280;
+
+  margin-bottom: 8px;
+}
+
+.address-box p:last-child {
+  margin-bottom: 0;
+}
+
+/* ================= COMPANY ================= */
+
+.company-box {
+  background: #eef2ff;
+
+  border-radius: 12px;
+
+  padding: 22px;
+}
+
+.company-box h3 {
+  color: #3730a3;
+
+  margin-bottom: 8px;
+}
+
+.company-box p {
+  color: #4b5563;
+
+  margin-bottom: 8px;
+}
+
+.company-box span {
+  color: #6b7280;
+
+  font-size: 13px;
+}
+
+/* ================= 404 ================= */
+
+.not-found {
+  text-align: center;
+}
+
+.not-found h1 {
+  font-size: 90px;
+
+  color: #6366f1;
+
+  margin-bottom: 10px;
+}
+
+.not-found h2 {
+  margin-bottom: 10px;
+}
+
+.not-found p {
+  color: #6b7280;
+
+  margin-bottom: 25px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 900px) {
+  .users-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .detail-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    padding: 0 5%;
+  }
+
+  .users-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page {
+    padding: 40px 20px;
+  }
+
+  .page-heading h1 {
+    font-size: 34px;
+  }
+
+  .user-details {
+    padding: 25px;
+  }
+}
