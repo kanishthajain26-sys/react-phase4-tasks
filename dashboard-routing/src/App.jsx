@@ -14,10 +14,10 @@ function App() {
 
       <Routes>
 
-        {/* Home */}
+       
         <Route path="/" element={<Home />} />
 
-        {/* Dashboard Layout */}
+      
         <Route path="/dashboard" element={<Sidebar />}>
 
           <Route index element={<Dashboard />} />
@@ -28,7 +28,7 @@ function App() {
 
         </Route>
 
-        {/* 404 */}
+     
         <Route path="*" element={<NotFound />} />
 
       </Routes>

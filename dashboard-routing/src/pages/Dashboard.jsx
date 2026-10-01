@@ -21,8 +21,6 @@ function Dashboard() {
       </div>
 
 
-      {/* Statistics */}
-
       <div className="stats">
 
         <div className="stat-card">
@@ -84,7 +82,7 @@ function Dashboard() {
       </div>
 
 
-      {/* Activity */}
+   
 
       <div className="dashboard-grid">
 
@@ -176,7 +174,7 @@ function Dashboard() {
         </div>
 
 
-        {/* Progress */}
+       
 
         <div className="progress-card">
 

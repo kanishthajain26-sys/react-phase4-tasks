@@ -15,7 +15,7 @@ body {
   line-height: 1.6;
 }
 
-/* ================= NAVBAR ================= */
+
 
 .navbar {
   height: 75px;
@@ -52,7 +52,7 @@ body {
   color: #6366f1;
 }
 
-/* ================= COMMON PAGE ================= */
+
 
 .page {
   width: 84%;
@@ -83,7 +83,7 @@ body {
   color: #6b7280;
 }
 
-/* ================= HOME ================= */
+
 
 .home {
   min-height: calc(100vh - 150px);
@@ -198,7 +198,7 @@ button:disabled {
   margin-top: 5px;
 }
 
-/* ================= ABOUT ================= */
+
 
 .about-grid {
   display: grid;
@@ -259,7 +259,7 @@ button:disabled {
   color: #6b7280;
 }
 
-/* ================= PROJECT CONTROLS ================= */
+
 
 .project-controls {
   display: flex;
@@ -302,7 +302,6 @@ button:disabled {
   color: #374151;
 }
 
-/* ================= PROJECT RESULT ================= */
 
 .project-result-info {
   margin-bottom: 22px;
@@ -314,7 +313,7 @@ button:disabled {
   color: #111827;
 }
 
-/* ================= PROJECT GRID ================= */
+
 
 .projects-grid {
   display: grid;
@@ -420,7 +419,7 @@ button:disabled {
   font-size: 20px;
 }
 
-/* ================= EMPTY STATE ================= */
+
 
 .empty-state {
   text-align: center;
@@ -454,7 +453,7 @@ button:disabled {
   margin-bottom: 20px;
 }
 
-/* ================= PAGINATION ================= */
+
 
 .pagination {
   margin-top: 40px;
@@ -487,7 +486,7 @@ button:disabled {
   gap: 7px;
 }
 
-/* ================= PROJECT DETAILS ================= */
+
 
 .back-btn {
   background: transparent;
@@ -576,7 +575,7 @@ button:disabled {
   border-top: 1px solid #e5e7eb;
 }
 
-/* ================= CONTACT ================= */
+
 
 .contact-container {
   display: grid;
@@ -645,7 +644,6 @@ button:disabled {
   font-size: 14px;
 }
 
-/* ================= 404 ================= */
 
 .not-found {
   display: flex;
@@ -670,8 +668,7 @@ button:disabled {
   margin-bottom: 20px;
 }
 
-/* ================= FOOTER ================= */
-/* ================= FOOTER ================= */
+
 
 .footer {
   margin-top: 20px;
@@ -703,7 +700,7 @@ button:disabled {
 }
 
 
-/* Mobile */
+
 
 @media (max-width: 600px) {
   .footer {
@@ -719,7 +716,6 @@ button:disabled {
 
 
 
-/* ================= RESPONSIVE ================= */
 
 @media (max-width: 900px) {
   .home {
@@ -858,7 +854,7 @@ button:disabled {
   background: #22c55e;
 }
 
-/* ================= LEARNING JOURNEY ================= */
+
 
 .learning-section {
   margin-top: 45px;

@@ -4,7 +4,7 @@ function Sidebar() {
   return (
     <div className="dashboard-layout">
 
-      {/* Sidebar */}
+    
 
       <aside className="sidebar">
 
@@ -50,7 +50,7 @@ function Sidebar() {
       </aside>
 
 
-      {/* Main Content */}
+    
 
       <main className="main-content">
 

@@ -10,7 +10,7 @@ body {
   color: #111827;
 }
 
-/* ================= NAVBAR ================= */
+
 
 .navbar {
   height: 70px;
@@ -45,7 +45,7 @@ body {
   color: #4f46e5;
 }
 
-/* ================= PAGE ================= */
+
 
 .page {
   max-width: 1200px;
@@ -74,14 +74,14 @@ body {
   color: #6b7280;
 }
 
-/* ================= COUNT ================= */
+
 
 .user-count {
   margin-bottom: 20px;
   color: #6b7280;
 }
 
-/* ================= USERS ================= */
+
 
 .users-grid {
   display: grid;
@@ -89,7 +89,6 @@ body {
   gap: 25px;
 }
 
-/* ================= USER CARD ================= */
 
 .user-card {
   background: white;
@@ -147,7 +146,7 @@ body {
   margin-bottom: 7px;
 }
 
-/* ================= BUTTON ================= */
+
 
 .details-btn {
   display: inline-block;
@@ -171,7 +170,7 @@ body {
   background: #4f46e5;
 }
 
-/* ================= LOADING ================= */
+
 
 .loading-page {
   min-height: 500px;
@@ -213,7 +212,7 @@ body {
   color: #6b7280;
 }
 
-/* ================= EMPTY ================= */
+
 
 .empty-state {
   text-align: center;
@@ -243,7 +242,7 @@ body {
   cursor: pointer;
 }
 
-/* ================= BACK ================= */
+
 
 .back-btn {
   background: transparent;
@@ -260,7 +259,7 @@ body {
   margin-bottom: 25px;
 }
 
-/* ================= USER DETAILS ================= */
+
 
 .user-details {
   background: white;
@@ -272,7 +271,7 @@ body {
   padding: 40px;
 }
 
-/* ================= PROFILE ================= */
+
 
 .user-profile {
   text-align: center;
@@ -310,7 +309,7 @@ body {
   color: #6366f1;
 }
 
-/* ================= DETAILS ================= */
+
 
 .details-content {
   padding-top: 35px;
@@ -325,7 +324,7 @@ body {
   color: #111827;
 }
 
-/* ================= CONTACT ================= */
+
 
 .detail-grid {
   display: grid;
@@ -361,7 +360,7 @@ body {
   word-break: break-word;
 }
 
-/* ================= ADDRESS ================= */
+
 
 .address-box {
   background: #f8fafc;
@@ -383,7 +382,7 @@ body {
   margin-bottom: 0;
 }
 
-/* ================= COMPANY ================= */
+
 
 .company-box {
   background: #eef2ff;
@@ -411,7 +410,7 @@ body {
   font-size: 13px;
 }
 
-/* ================= 404 ================= */
+
 
 .not-found {
   text-align: center;
@@ -435,7 +434,7 @@ body {
   margin-bottom: 25px;
 }
 
-/* ================= RESPONSIVE ================= */
+
 
 @media (max-width: 900px) {
   .users-grid {

@@ -151,7 +151,7 @@ function UserDetails() {
 
           </div>
 
-          {/* ADDRESS */}
+         
 
           <div className="detail-section">
 
@@ -193,7 +193,7 @@ function UserDetails() {
 
           </div>
 
-          {/* COMPANY */}
+        
 
           <div className="detail-section">
 
